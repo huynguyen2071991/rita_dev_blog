@@ -94,7 +94,8 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     'nuxt-fontawesome',
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    '@nuxtjs/vuetify'
   ],
 
   /**
