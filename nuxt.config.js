@@ -159,7 +159,8 @@ export default {
    * Generate config
    */
   generate: {
-    routes: [].concat(blogs.map(blog => `/blog/${blog.slug}`))
+    routes: [].concat(blogs.map(blog => `/blog/${blog.slug}`)),
+    fallback: true
   },
 
   /**
